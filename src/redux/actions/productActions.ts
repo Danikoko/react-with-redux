@@ -20,4 +20,8 @@ const removeSelectedProduct = (product: any) => {
     }
 }
 
-export { setProducts, selectedProduct, removeSelectedProduct };
+export { 
+    setProducts, 
+    selectedProduct, 
+    removeSelectedProduct 
+};

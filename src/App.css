@@ -104,9 +104,6 @@
 
 div.footer {
   text-align: center;
-}
-
-div.footer div {
   position: fixed;
   bottom: 0;
   width: 100%;

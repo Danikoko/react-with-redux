@@ -4,6 +4,7 @@ import {
   Route 
 } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import ProductDetail from './components/ProductDetail';
 import ProductListing from './components/ProductListing';
@@ -11,8 +12,8 @@ import ProductListing from './components/ProductListing';
 const App = () => {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route 
             path='/' 
@@ -27,6 +28,7 @@ const App = () => {
             element={<h1>404 Not Found!</h1>} 
           />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )

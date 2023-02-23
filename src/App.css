@@ -1,3 +1,7 @@
+div.App div.ui.stackable.grid.container {
+  padding-bottom: 8rem !important;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -104,9 +108,9 @@
 
 div.footer {
   text-align: center;
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   width: 100%;
-  background-color: #fcfcfc;
-  padding: 20px;
+  background-color: #fcfcfc !important;
+  padding: 10px !important;
 }

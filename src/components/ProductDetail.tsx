@@ -32,7 +32,7 @@ const ProductDetail = () => {
     }, []);
 
     return (
-        <div>
+        <div className="page-padding-bottom">
             {
                 API_Status === 'loading'
                 ?

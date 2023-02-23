@@ -30,7 +30,7 @@ const ProductListing = () => {
     }, []);
 
     return (
-        <div className='ui stackable grid container'>
+        <div className='ui stackable grid container page-padding-bottom'>
             {
                 API_Status === 'loading'
                 ?
